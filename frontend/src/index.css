@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.spinner-border {
+  height: 50px;
+  width: 50px;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filters h6 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.filters select {
+  width: 150px;
+  margin-right: 20px;
+  background-color: #2d2d2d;
+  color: #f5f5f5;
+}
+
+.filters .ant-picker {
+  width: 250px;
+  margin-right: 20px;
+  background-color: #fff;
+  color: #000;
+}
+
+.filters .switch-icons {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.filters .switch-icons .active-icon {
+  color: #1890ff;
+}
+
+.filters .switch-icons .inactive-icon {
+  color: #bfbfbf;
+}
+
+.filters button {
+  background-color: #1890ff;
+  color: #fff;
+  border: none;
+  padding: auto;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.filters button:hover {
+  background-color: #40a9ff;
+}
+
+.switch-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.switch-icons .anticon {
+  font-size: 20px;
+  margin: 0 5px;
+}
+
+/* Analytics Section */
+.analytics-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.analytics-card {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+}
+
+.card-header {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.card-equal-width {
+  width: 637px;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.text-success {
+  color: green;
+}
+
+.text-danger {
+  color: red;
+}

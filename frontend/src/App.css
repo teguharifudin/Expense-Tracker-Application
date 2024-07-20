@@ -1,0 +1,176 @@
+/* Navbar */
+
+.nav-header {
+  background-color: rgb(0, 108, 117);
+  border-bottom: 0;
+  /* padding: 0 4px 0 24px; */
+}
+
+.logo {
+  float: left;
+  width: 200px;
+}
+
+.logo a {
+  display: inline-block;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.navbar-menu {
+  width: calc(100% - 200px);
+  float: left;
+}
+.navbar-menu .ant-layout-header {
+  padding: 0;
+}
+
+.navbar-menu .ant-menu-horizontal {
+  border-bottom: 0;
+}
+
+.navbar-menu .ant-menu-item {
+  padding-bottom: 0px;
+}
+
+.navbar-menu .leftMenu {
+  float: left;
+  width: 50%;
+}
+
+.ant-menu-light {
+  background-color: transparent;
+}
+
+.navbar-menu .rightMenu {
+  float: right;
+}
+
+.menuButton {
+  float: right;
+  height: 32px;
+  /* padding: 6px; */
+  /* margin-top: 14px; */
+  display: none;
+  background: none;
+  margin-right: 10px;
+}
+
+.ant-drawer-body {
+  padding: 0;
+}
+
+.ant-drawer-body .ant-menu-horizontal > .ant-menu-item,
+.ant-drawer-body .ant-menu-horizontal > .ant-menu-submenu {
+  display: inline-block;
+  width: 100%;
+}
+
+.ant-drawer-body .ant-menu-horizontal {
+  border-bottom: none;
+}
+
+.ant-drawer-body .ant-menu-horizontal > .ant-menu-item:hover {
+  border-bottom-color: transparent;
+}
+
+.username {
+  display: none;
+  margin-left: 8px;
+}
+
+.brand-font {
+  margin: 6% 0;
+}
+
+@media (max-width: 767px) {
+  .menuButton {
+    display: block;
+    margin-right: 10px;
+  }
+
+  .leftMenu,
+  .rightMenu {
+    display: none;
+  }
+
+  .logo a {
+    margin-left: -10px;
+  }
+
+  .ant-drawer-title > .brand-font {
+    margin-bottom: 0;
+  }
+
+  .username {
+    display: inline-block;
+  }
+
+  .brand-font {
+    margin: 8% 0;
+  }
+
+  .navbar-menu {
+    width: calc(100% - 200px);
+    float: left;
+    margin: 5% 0;
+  }
+}
+
+/* Navbar End */
+
+
+/* Register */
+
+.register-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.register-page form {
+  width: 400px;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.register-page form .d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.register-page form .d-flex a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.register-page .ant-form-item {
+  margin-bottom: 20px;
+}
+
+.register-page .ant-form-item-label {
+  font-weight: bold;
+}
+
+.register-page .ant-form-item-explain {
+  color: #ff4d4f;
+}
+
+.register-page .ant-form-item-has-error .ant-input {
+  border-color: #ff4d4f;
+}
+
+.register-page .ant-form-item-has-error .ant-input:focus {
+  box-shadow: 0 0 0 2px rgba(255, 77, 79, 0.2);
+}
+
+/* Register End */
